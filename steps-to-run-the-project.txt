@@ -1,0 +1,37 @@
+Pre requisites:
+1. Maven should be installed.
+2. Git should be installed.
+3. Java 1.8 is required.
+
+Steps to run:
+1. Change to filesystem/ folder where you want to download the github repo
+   example: cd your-folder
+2. Initialize git using below command,
+   git init
+3. Clone the repo from githu to your local using below command,
+   git clone https://github.com/eff-sunyl/Lockedmerepo.git
+
+4. Change directory to Lockedmerepo/LockedMe/ from the current working directory.
+   cd Lockedrepo/LockedMe/
+
+5. Run maven package for generating the jar.
+   mvn package
+
+6. The build should be a success. If the build is failing( reach out to me with the error and steps taken)
+
+7. Change directory to target folder from the current working directory.
+   cd target
+8. Run ls command to check if the output jar exists. If it does not exist then reach out to me with the error and steps taken.
+   The jar LockedMe-0.0.1-SNAPSHOT.jar will show up in target folder.
+
+9. Execute the jar using below command
+   java -cp LockedMe-0.0.1-SNAPSHOT.jar com.lockedme.Main
+   This command will start the execution of the Main class in the project.
+   Example:
+[ratna@oc3605453406 target]$ ls LockedMe-0.0.1-SNAPSHOT.jar 
+LockedMe-0.0.1-SNAPSHOT.jar
+
+
+10.Follow the features of the application to navigate the application.
+
+   
