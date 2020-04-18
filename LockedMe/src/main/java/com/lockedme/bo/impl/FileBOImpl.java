@@ -95,7 +95,7 @@ public class FileBOImpl implements FileBO {
 		}
 		else
 		{
-		    System.out.println("You did not enter: (yes / no) or (y / n). ");	
+		    System.out.println("This file is not saved. ");	
 		    System.out.println("Try again from the File operations menu");
 		    nf.delete();
 			return fo;
