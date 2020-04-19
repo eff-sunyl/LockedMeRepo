@@ -35,3 +35,8 @@ LockedMe-0.0.1-SNAPSHOT.jar
 10.Follow the features of the application to navigate the application.
 
    
+Steps to run test classes :
+1. Change directory from your current folder to Lockedmerepo/LockedMe folder
+2. Run below command to execute the test classes of this project.
+   mvn test
+
