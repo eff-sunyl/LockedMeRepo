@@ -148,7 +148,7 @@ public class FileBOImpl implements FileBO {
 		int bs=Collections.binarySearch(ls, fo.getFname().toString());
 		//System.out.println(ls);
 		//System.out.println("bs:"+bs);
-		if (bs>0)
+		if (bs>=0)
 			System.out.println("File " +fo.getFname()+" is found");
 		//boolean nfb=false;
 		//nfb=nf.exists();
